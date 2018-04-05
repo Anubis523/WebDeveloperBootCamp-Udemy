@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h1>Goodbye</h1>
+    <ul>
+        <li id="highlight">List Item 1 </li>
+        <li class="bolded">List Item 2</li>
+        <li class="bolded">List Item 3</li>
+    </ul>
+    <button id="clickbait">Click Me</button>
+    <!-- The object of this exercise
+    was to select only the first paragraph tag
+    4 different ways with the dom selection
+    tools covered earlier  these are the ways:
+    
+    document.querySelector("p")
+    document.querySelector("#first")
+    document.querySelector(".special")-->
+    <!-- document.getElementById("first") -->
+    <p id="first" class = "special"> Hello</p>
+    <p class="special">Goodbye</p>
+    <p>Hi again</p>
+    <p id="last">Goodbye Again</p>
+    <!-- Added an event listener to trigger a confirmation
+    pop-up to acknowledge that the button has indeed been pressed -->
+    <script type="text/javascript">
+        document.getElementById("clickbait").addEventListener("click",
+        function () {
+            document.getElementById("clickbait").style.backgroundColor = "blue";
+            confirm("Button has been clicked");
+        });
+    </script>
+</body>
+</html>  

@@ -1,0 +1,18 @@
+h1{
+    width: 40%;
+    color: rgba(65, 65, 65,.75);
+    border-bottom: 2px solid grey;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+}
+div{
+    width: 100%;
+    /* float: left; */
+}
+img{
+    float: left;
+    width:30%;
+    height: 30%;
+    margin: 1.6%;
+}

@@ -1,0 +1,49 @@
+body{
+    padding-top: 70px;
+}
+.jumbotron{
+    color:#2c3e50;
+    background-color: #ecf0f1;
+}
+.navbar-inverse {
+    background:#2c3e50;
+}
+.navbar-inverse .navbar-nav>li>a    {
+    color:white;
+}
+.navbar-inverse .navbar-brand   {
+    color:white;
+}
+.image{
+    width:100%;
+    height:280px;
+    background-size: cover;
+    background-position: center;
+}
+.image_1{
+    background-image: url(https://images.unsplash.com/photo-1491839588322-6152ae0cb6a7?ixlib=rb-0.3.5&s=88102f47234df21a6cc92a7cd4578e63&auto=format&fit=crop&w=1650&q=80);
+}
+.image_2{
+    background-image: url(https://images.unsplash.com/photo-1512526393532-fb0ebb8ca24a?ixlib=rb-0.3.5&s=37688a5fed49fb429f7855a0e364cab9&auto=format&fit=crop&w=1867&q=80);
+}
+.image_3{
+    background-image: url(https://images.unsplash.com/photo-1519981593452-666cf05569a9?ixlib=rb-0.3.5&s=062cddcb15e1ee5c52218b389ec600ed&auto=format&fit=crop&w=1915&q=80);
+}
+.image_4{
+    background-image: url(https://images.unsplash.com/photo-1494797262163-102fae527c62?ixlib=rb-0.3.5&s=67d8e7b3f1f2411bc2e44e8af5c94a31&auto=format&fit=crop&w=1900&q=80);
+}
+.image_5{
+    background-image: url(https://images.unsplash.com/photo-1499509649734-64a584a5ae4c?ixlib=rb-0.3.5&s=d69fae33b69da5fe75e0a5854bf0376d&auto=format&fit=crop&w=1650&q=80);
+}
+.image_6{
+    background-image: url(https://images.unsplash.com/photo-1508163106108-092ea5e2e9c9?ixlib=rb-0.3.5&s=7f4cb07b85d53d2dde530bf06ebcc8e3&auto=format&fit=crop&w=1834&q=80);
+}
+.image_7{
+    background-image: url(https://images.unsplash.com/photo-1513103891413-5cd7019648f2?ixlib=rb-0.3.5&s=9fff335ee6807afc44080fd873806266&auto=format&fit=crop&w=1834&q=80);
+}
+.image_8{
+    background-image: url(https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?ixlib=rb-0.3.5&s=f5535855eb746c14a53b386bca329be4&auto=format&fit=crop&w=1651&q=80);
+}
+.image_9{
+    background-image: url(https://images.unsplash.com/photo-1492998680170-81f8863d8d2d?ixlib=rb-0.3.5&s=a1f996da79df05d18e7344136535ad2f&auto=format&fit=crop&w=1825&q=80);
+}

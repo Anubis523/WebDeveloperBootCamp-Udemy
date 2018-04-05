@@ -1,0 +1,29 @@
+/* date color #3498db
+h2 color #2c3e50 */
+
+body{
+    max-width: 700px;
+    width:80%;
+    height: 90%; 
+    margin: 20px auto; 
+    padding: 20px;
+    border: 20px solid #bdc3c7;
+    font-family: 'Open Sans', sans-serif;
+}
+ div.post{
+    float:top;
+    height:33%;
+    /* padding: 0 20px 0 20px; */
+    border-bottom: 1px solid #bdc3c7;
+}
+
+ h4.date{
+    color: #114b86; 
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing:0.2rem;
+}
+p.p1{
+    border-left: 6px solid #bdc3c7;
+    padding-left: 6px;
+}

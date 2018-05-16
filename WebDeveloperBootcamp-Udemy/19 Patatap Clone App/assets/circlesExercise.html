@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="paper-full.js"></script>
+    <link rel="stylesheet" href="css/patatapClone.css">
+    <script type="text/paperscript" canvas="myCanvas">  //warning do not use the ES6 stuff w/ paperjs
+        for (var i = 0; i < 1000;i+=100)
+        {
+            for (var j = 0; j < 1000; j+=100)
+            {
+                var circle = new Path.Circle(new Point(i,j),20);
+                circle.fillColor = 'red';
+            }
+           
+        }
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas" resize></canvas>
+    <!-- <script type="text/paperscript" canvas="myCanvas">
+        for (let i = 0; i < 1000;i+=100)
+        {
+            for( let j = 0; j < 1000;j+=100)
+            {
+                let myCircle = new Path.Circle(new Point (i,j),10);
+                myCircle.fillColor = 'purple';
+            }
+        }
+    </script> -->
+</body>
+</html>
